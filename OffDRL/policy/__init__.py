@@ -9,6 +9,7 @@ from OffDRL.policy.model_free.iql import IQLPolicy
 from OffDRL.policy.model_free.mcq import MCQPolicy
 from OffDRL.policy.model_free.td3bc import TD3BCPolicy
 from OffDRL.policy.model_free.edac import EDACPolicy
+from OffDRL.policy.generative_rl.diffusion_ql import DiffusionQLPolicy
 from OffDRL.policy.transformer_rl.dt import DecisionTransformer
 
 
@@ -22,5 +23,6 @@ __all__ = [
     "MCQPolicy",
     "TD3BCPolicy",
     "EDACPolicy",
+    "DiffusionQLPolicy",
     "DecisionTransformer",
 ]
